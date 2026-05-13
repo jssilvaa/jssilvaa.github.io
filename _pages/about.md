@@ -26,9 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a MSc Student in Electrical and Computer Engineering at the University of Minho, Portugal, working in the field of Robotics and Embedded Systems. I have a background in Physics, and I am passionate about learning new things and sharing my knowledge with others.
+I'm a MSc Student in Electrical and Computer Engineering at the University of Minho, Portugal, working in the field of Robotics and Embedded Systems.
 
-My research interests include robotics, embedded systems, and machine learning. I am particularly interested in the intersection of these fields and how they can be applied to solve real-world problems.
+I'm currently working on building a Centroidal Dynamics framework for Active Disturbance Rejection on the Unitree G1. I'm also building a Subset-C compiler to generate efficient code for a FPGA implementation of a custom RISC core. 
 
-This site collects my notes, project writeups, and occasional long-form posts
-on things I had to figure out the hard way.
+BSc in Engineering Physics. This site collects research notes, project writeups, and
+posts on things I had to work out from first principles.
