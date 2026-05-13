@@ -31,7 +31,7 @@
 The vibrant community of **al-folio** users is growing!
 Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
 Check out the community webpages below.
-Feel free to add your own page(s) by sending a PR.
+Feel free to add your own page(s) by sending a PR
 
 <table>
 <tr>
@@ -272,7 +272,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math &amp; code](#full-support-for-math--code)
+      - [Full support for math \& code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
     - [Other features](#other-features)
       - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
