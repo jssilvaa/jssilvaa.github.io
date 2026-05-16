@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/notes/";
           },
-        },{id: "post-chaitin-register-allocation",
+        },{id: "post-your-compiler-39-s-register-problem-is-a-coloring-problem",
         
-          title: "Chaitin Register Allocation",
+          title: "Your Compiler&#39;s Register Problem Is a Coloring Problem",
         
-        description: "",
+        description: "How Chaitin unified register allocation and spilling via graph coloring.",
         section: "Posts",
         handler: () => {
           
