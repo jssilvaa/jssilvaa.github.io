@@ -37,7 +37,7 @@ The non-obvious move is recognizing that the degree of a node in the interferenc
 
 **Coalescing is conservative.** Chaitin merges copy-related registers ($r_i \leftarrow r_j$) only when they don't already interfere. He never breaks an existing interference to enable a merge. On SSA-form IR with many $\phi$-copies, this leaves copy-elimination on the table. George & Appel's iterated coalescing (1996) addresses this, but it's a substantially more complex algorithm.
 
-**The memory footprint is quadratic.** The interference graph is stored as a $|V| \times |V|$ bit matrix for $O(1)$ adjacency queries. For large functions with many symbolic registers, this becomes the binding constraint. Chaitin notes it explicitly — it's not a theoretical concern, it's a practical one on the machines of 1982, and it resurfaces today in functions with very large register pressure (e.g., auto-vectorized code with wide SIMD temporaries).
+**The memory footprint is quadratic.** The interference graph is stored as a $\vert V\vert \times \vert V\vert$ bit matrix for $O(1)$ adjacency queries. For large functions with many symbolic registers, this becomes the binding constraint. Chaitin notes it explicitly — it's not a theoretical concern, it's a practical one on the machines of 1982, and it resurfaces today in functions with very large register pressure (e.g., auto-vectorized code with wide SIMD temporaries).
 
 ## What I'd Explore Next
 
