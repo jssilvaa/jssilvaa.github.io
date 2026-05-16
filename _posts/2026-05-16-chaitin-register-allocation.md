@@ -1,11 +1,11 @@
-```yaml
 ---
-title: Your Compiler's Register Problem Is a Coloring Problem
+layout: post
+title: "Your Compiler's Register Problem Is a Coloring Problem"
 date: 2026-05-16
-tags: [embedded/compilers, math/optimization]
-publish: true
+tags: [compilers, embedded-systems]
+description: "How Chaitin unified register allocation and spilling via graph coloring."
+math: true 
 ---
-```
 
 ## The Problem
 
