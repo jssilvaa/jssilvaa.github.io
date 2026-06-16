@@ -51,6 +51,11 @@ ninja.data = [{
           description: "what lives here and what doesn&#39;t",
           section: "Notes",handler: () => {
               window.location.href = "/notes/2026-05-13-welcome/";
+            },},{id: "projects-active-disturbance-rejection-for-humanoid-balance",
+          title: 'Active Disturbance Rejection for Humanoid Balance',
+          description: "A 6-D wrench observer and capture-point stepping on a whole-body nonlinear-MPC humanoid (Unitree G1) — with a live WebAssembly companion you can run in the browser.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/adr-disturbance-rejection/";
             },},{id: "projects-zmp-based-humanoid-locomotion",
           title: 'ZMP-Based Humanoid Locomotion',
           description: "Notes on hierarchical QP and torque control for biped stability",
