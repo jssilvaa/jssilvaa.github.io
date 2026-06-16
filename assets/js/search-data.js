@@ -53,7 +53,7 @@ ninja.data = [{
               window.location.href = "/notes/2026-05-13-welcome/";
             },},{id: "projects-active-disturbance-rejection-for-humanoid-balance",
           title: 'Active Disturbance Rejection for Humanoid Balance',
-          description: "A 6-D wrench observer and capture-point stepping on a whole-body nonlinear-MPC humanoid (Unitree G1) — with a live WebAssembly companion you can run in the browser.",
+          description: "Giving a whole-body MPC humanoid a sense of touch — estimating unfelt pushes and rejecting them by leaning or stepping. With a live WebAssembly companion you can run in the browser.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/adr-disturbance-rejection/";
             },},{id: "projects-zmp-based-humanoid-locomotion",
